@@ -1,0 +1,29 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Secretos y variables de entorno
+.env
+.env.*
+
+# Cachés de herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Empaquetado
+*.egg-info/
+dist/
+build/
+
+# Sistema e IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
